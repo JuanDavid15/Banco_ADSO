@@ -1,0 +1,16 @@
+{
+    "name": "aprendiz/bancoadso",
+    "description": "Aplicación bancaria simulada Banco ADSO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/ayudantes.php"
+        ]
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}

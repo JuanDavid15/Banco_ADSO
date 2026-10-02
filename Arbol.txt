@@ -1,0 +1,63 @@
+BancoADSO/
+├── composer.json √ (viernes)
+├── config/ (martes)
+│   └── basedatos.php √
+├── sql/ (sábado)
+│   ├── crear_bd.sql √ (miercoles)
+│   ├── sembrar_datos.sql √ (miercoles)
+│   ├── UsersInfo.txt √ (miercoles)
+│   └── actualizar_claves.sql √
+├── public/ (sábado)
+│   ├── index.php √
+│   └── css/ (sábado)
+│       └── estilos.css √
+├── src/
+│   ├── ayudantes.php √ (viernes)
+│   ├── Nucleo/ (viernes)
+│   │   ├── Router.php √
+│   │   ├── Vista.php √
+│   │   ├── ControladorBase.php √
+│   │   └── Conexion.php √
+│   ├── Excepciones/ (viernes)
+│   │   ├── ReglaDeNegocioException.php √
+│   │   ├── CredencialesInvalidasException.php √
+│   │   ├── CuentaNoEncontradaException.php √
+│   │   ├── ValorInvalidoException.php √
+│   │   ├── SaldoInsuficienteException.php √
+│   │   └── CuentaDestinoInvalidaException.php √
+│   ├── Modelos/ (viernes)
+│   │   ├── Cliente.php √
+│   │   ├── Cuenta.php √
+│   │   ├── Usuario.php √
+│   │   ├── Retiro.php √
+│   │   └── Transferencia.php √
+│   ├── Repositorios/ (viernes)
+│   │   ├── ClienteRepositorio.php √
+│   │   ├── CuentaRepositorio.php √
+│   │   ├── RetiroRepositorio.php √
+│   │   ├── TransferenciaRepositorio.php √
+│   │   └── UsuarioRepositorio.php √
+│   ├── Servicios/ (viernes)
+│   │   ├── AutenticacionServicio.php √
+│   │   └── CuentaServicio.php √
+│   └── Controladores/ (sábado)
+│       ├── SesionControlador.php √
+│       ├── CuentaControlador.php √
+│       ├── RetirosControlador.php √
+│       └── TransferenciasControlador.php √
+├── vendor/ (viernes, generado por Composer)
+└── vistas/ (sábado)
+    ├── layout.php √
+    ├── login/ (sábado)
+    │   └── formulario.php √
+    ├── cuenta/ (sábado)
+    │   └── panel.php √
+    ├── retiros/ (sábado)
+    │   ├── formulario.php √
+    │   └── historial.php √
+    ├── transferencias/ (sábado)
+    │   ├── formulario.php √
+    │   └── historial.php √
+    └── errores/ (sábado)
+        ├── 404.php √
+        └── 500.php √
